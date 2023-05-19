@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpaperaccess.com/full/417643.jpg");
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#dataTable {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dataTable th, #dataTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#dataTable th {
+    background-color: #f2f2f2;
+}
+
+#dataTable td {
+    text-align: center;
+}
+
+#nameFilter, #designationFilter {
+    margin-bottom: 10px;
+}

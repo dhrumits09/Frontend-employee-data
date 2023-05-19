@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Data Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="background"></div>
+    <h1>Employee Data</h1>
+    <div id="filters">
+        <label for="nameFilter">Filter by Name:</label>
+        <input type="text" id="nameFilter" />
+        <label for="designationFilter">Filter by Designation:</label>
+        <input type="text" id="designationFilter" />
+    </div>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Skills</th>
+                <th>Projects</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
